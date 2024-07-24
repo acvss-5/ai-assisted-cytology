@@ -1,6 +1,4 @@
-import torch
 from PIL import Image
-from sklearn import svm
 import torch
 import torchvision.transforms as T
 
