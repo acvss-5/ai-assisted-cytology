@@ -3,8 +3,8 @@ import numpy as np
 from img_loader import load_image
 import joblib
 
-svm_path = "\models\svm_model.joblib"
-knn_path = "\models\knn_model.joblib"
+svm_path = "models\svm_model.joblib"
+knn_path = "models\knn_model.joblib"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 dinov2 = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitb14')
